@@ -40,7 +40,15 @@ In general, the PyTorch version consumes less memory but also runs slower than J
 
 ### Dependencies
 
-Run the following to install a subset of necessary python packages for our code
+Note: some requirements like jaxlib 0.1.60 is only available with Python 3.8,
+therefore it is recommended to create a conda env with this version of
+python. 
+
+```sh
+conda create --name score_sde python=3.8
+```
+
+Then run the following to install a subset of necessary python packages for our code
 ```sh
 pip install -r requirements.txt
 ```
